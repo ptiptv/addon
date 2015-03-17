@@ -14,7 +14,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Tuga IPTV Addon.</summary>
-        <description>Tuga IPTV Addon.</description>
+        <description>Tuga IPTV Addony.</description>
         <platform>all</platform>
     </extension>
 </addon>
