@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import xbmc,xbmcaddon,xbmcgui,xbmcplugin,urllib,urllib2,os,re,sys,datetime,time
 from BeautifulSoup import BeautifulSoup
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
@@ -219,7 +219,7 @@ def abrir_cookie(url):
         br.set_handle_robots(False)
         br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
         br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
-        br.open('http://ptiptv.zapto.org/')
+        br.open('http://89.163.212.78:8009/admin/')
         br.select_form(nr=0)
         br.form['password']=password
         br.form['username']=username
